@@ -46,9 +46,9 @@
 
 ## Entrega 1
 
-*En esta primera iteración nos encargaremos de modelar, a nivel datos y objetos, una solución al dominio presentado. Además, comenzaremos con el proceso de codificación de la solución.
+* En esta primera iteración nos encargaremos de modelar, a nivel datos y objetos, una solución al dominio presentado. Además, comenzaremos con el proceso de codificación de la solución.
 
-*En particular, en esta entrega se solicita:
+* En particular, en esta entrega se solicita:
 
 1. Modelo de datos (DER físico) que brinde solución al dominio.
 2. Código con modelado de clases. El código debe estar subido a un repositorio de GitHub.
@@ -73,19 +73,8 @@
 <p align="center">© 2023 Creative Guido, all rights reserved. Made with ❤️ for a better web.</p>
 <p align="center">@https://github.com/germanesalvatierra</p>
 <p align="center">@https://github.com/KivyDesign</p>
-<p align="center">@https://github.com/</p>
-<p align="center">@https://github.com/</p>
-<p align="center">@https://github.com/</p>
-<p align="center">@https://github.com/</p>
+<p align="center">@https://github.com/gustavotorres37</p>
+<p align="center">@</p>
+<p align="center">@</p>
+<p align="center">@</p>
 
-
-
-
-
-
-
-![image](https://github.com/KivyDesign/TPI-Comision141-Final/blob/main/IMGs/Captura%20de%20pantalla%20-2023-11-17%2019-02-43.png)
-
-![image](https://github.com/KivyDesign/TPI-Comision141-Final/blob/main/IMGs/DER%20version%201.0.0.png)
-
-![image](https://github.com/KivyDesign/TPI-Comision141-Final/blob/main/IMGs/tp-final.png)
