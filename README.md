@@ -8,20 +8,20 @@
 
 ### Contexto general
 
-* Una importante empresa de soporte operativo solicita el diseño y desarrollo de un sistema que le permita la generación y seguimiento de los incidentes que se presentan.
-* La empresa en cuestión se dedica a brindar soporte operativo sobre distintas aplicaciones (SAP, Tango, etc.) y sistemas operativos (Windows, MacOS, Linux Ubuntu).
-* El área de RRHH se encarga de realizar las altas, bajas y modificaciones de los técnicos que se encargan de resolver los incidentes reportados.
-* Cada técnico tiene una o varias especialidades y solo se le pueden asignar incidentes que coincidan con las mismas.
-* El área comercial es responsable de incorporar nuevos clientes a la empresa. Administra las altas, bajas y modificaciones de los datos de cada uno de ellos.
-* Finalmente, la mesa de ayuda es responsable de atender las llamadas e ingresar al sistema los incidentes reportados.
+<p>Una importante empresa de soporte operativo solicita el diseño y desarrollo de un sistema que le permita la generación y seguimiento de los incidentes que se presentan.</p>
+<p>La empresa en cuestión se dedica a brindar soporte operativo sobre distintas aplicaciones (SAP, Tango, etc.) y sistemas operativos (Windows, MacOS, Linux Ubuntu).</p>
+<p>El área de RRHH se encarga de realizar las altas, bajas y modificaciones de los técnicos que se encargan de resolver los incidentes reportados.</p>
+<p>Cada técnico tiene una o varias especialidades y solo se le pueden asignar incidentes que coincidan con las mismas.</p>
+<p>El área comercial es responsable de incorporar nuevos clientes a la empresa. Administra las altas, bajas y modificaciones de los datos de cada uno de ellos.</p>
+<p>Finalmente, la mesa de ayuda es responsable de atender las llamadas e ingresar al sistema los incidentes reportados.</p>
 
 ### Ciclo de vida de un incidente
 
-* Cuando un cliente llama, la mesa de ayuda le solicita los datos para identificarlo (razón social, CUIT) y los ingresa en el sistema para que el mismo le muestre los servicios que el cliente tiene contratados.
-* El operador (de la mesa de ayuda) solicita que le informen por cuál de esos servicios desea reportar un incidente, junto con una descripción del problema y el tipo del problema.
-* Al ingresar el incidente, el sistema devuelve un listado de técnicos disponibles para resolver el problema. El operador selecciona uno de los técnicos disponibles y el sistema le informa el tiempo estimado de resolución. Luego, informa al cliente que el incidente ha sido ingresado y la fecha posible de resolución.
-* Al confirmarse el incidente, el sistema debe enviar una notificación al técnico informándole que tiene un nuevo incidente para resolver.
-* Cuando el técnico atiende y resuelve el incidente, lo debe marcar como "resuelto", indicando las consideraciones que crea necesarias. Cuando esto ocurra, el sistema debe enviar un email al cliente informándole que su incidente ya está solucionado.
+<p>Cuando un cliente llama, la mesa de ayuda le solicita los datos para identificarlo (razón social, CUIT) y los ingresa en el sistema para que el mismo le muestre los servicios que el cliente tiene contratados.</p>
+<p>El operador (de la mesa de ayuda) solicita que le informen por cuál de esos servicios desea reportar un incidente, junto con una descripción del problema y el tipo del problema.</p>
+<p>Al ingresar el incidente, el sistema devuelve un listado de técnicos disponibles para resolver el problema. El operador selecciona uno de los técnicos disponibles y el sistema le informa el tiempo estimado de resolución. Luego, informa al cliente que el incidente ha sido ingresado y la fecha posible de resolución.</p>
+<p>Al confirmarse el incidente, el sistema debe enviar una notificación al técnico informándole que tiene un nuevo incidente para resolver.</p>
+<p>Cuando el técnico atiende y resuelve el incidente, lo debe marcar como "resuelto", indicando las consideraciones que crea necesarias. Cuando esto ocurra, el sistema debe enviar un email al cliente informándole que su incidente ya está solucionado.</p>
 
 ### Otros requerimientos
 
@@ -39,21 +39,21 @@
 
 ### Metodología
 
-* Se propone una metodología de trabajo **iterativa** e **incremental**. Para esto, el TP se divide en tres entregas, las cuales se realizarán a través del envío del link al repositorio de trabajo por medio del Campus Virtual en la fecha estipulada por el Docente del curso.
-* En la última entrega (coincidente con la tercera) se deberá exponer el TP frente al curso, mostrando la solución generada y justificando las decisiones tomadas.
+<p>Se propone una metodología de trabajo **iterativa** e **incremental**. Para esto, el TP se divide en tres entregas, las cuales se realizarán a través del envío del link al repositorio de trabajo por medio del Campus Virtual en la fecha estipulada por el Docente del curso.</p>
+<p>En la última entrega (coincidente con la tercera) se deberá exponer el TP frente al curso, mostrando la solución generada y justificando las decisiones tomadas.</p>
 
 # Entregas
 
 ## Entrega 1
 
-* En esta primera iteración nos encargaremos de modelar, a nivel datos y objetos, una solución al dominio presentado. Además, comenzaremos con el proceso de codificación de la solución.
-
-* En particular, en esta entrega se solicita:
+<p>En esta primera iteración nos encargaremos de modelar, a nivel datos y objetos, una solución al dominio presentado. Además, comenzaremos con el proceso de codificación de la solución.</p>
+<p></p>
+<p>En particular, en esta entrega se solicita:</p>
 
 1. Modelo de datos (DER físico) que brinde solución al dominio.
 2. Código con modelado de clases. El código debe estar subido a un repositorio de GitHub.
 
-* Es necesario que el proyecto Java sea creado como un proyecto "Maven" para poder añadir algunas dependencias. Se recomienda la utilización de la dependencia de [Lombok](https://projectlombok.org/) para facilitar la tarea repetitiva de generación de Setters y Getters de las clases.
+<p>Es necesario que el proyecto Java sea creado como un proyecto "Maven" para poder añadir algunas dependencias. Se recomienda la utilización de la dependencia de [Lombok](https://projectlombok.org/) para facilitar la tarea repetitiva de generación de Setters y Getters de las clases.</p>
 
 ![image](https://github.com/KivyDesign/TPI-Comision141-Final/blob/main/IMGs/Diagrama%20ERD%20TPI-Final%20Comisi%C3%B3n%20141%20Grupo%205%20-%20Etapa%201.png)
 
@@ -61,16 +61,16 @@
 
 ## Entrega 2
 
-* En esta segunda iteración nos encargaremos de mapear, mediante anotaciones JPA, nuestras clases implementadas para poder persistir el modelo en una Base de Datos Relacional.
-* Además, comenzaremos con la generación de los repositorios/servicios para que brinden solución a algunos requerimientos planteados.
-
-* En particular, en esta entrega se solicita:
+<p>En esta segunda iteración nos encargaremos de mapear, mediante anotaciones JPA, nuestras clases implementadas para poder persistir el modelo en una Base de Datos Relacional.</p>
+<p>Además, comenzaremos con la generación de los repositorios/servicios para que brinden solución a algunos requerimientos planteados.</p>
+<p></p>
+<p>En particular, en esta entrega se solicita:</p>
 
 1. Modelado de clases con Mapeo (anotaciones JPA) de entidades para que las mismas sean persistidas mediante el ORM Hibernate.
 2. Repositorios/Servicios que den solución a los requerimientos planteados:
-   a. Quién fue el técnico con más incidentes resueltos en los últimos N días
-   b. Quién fue el técnico con más incidentes resueltos de una determinada especialidad en los últimos N días
-   c. Quién fue el técnico que más rápido resolvió los incidentes
+   - Quién fue el técnico con más incidentes resueltos en los últimos N días
+   - Quién fue el técnico con más incidentes resueltos de una determinada especialidad en los últimos N días
+   - Quién fue el técnico que más rápido resolvió los incidentes
 
 # Miembros del Grupo 5
 
