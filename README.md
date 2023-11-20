@@ -39,7 +39,7 @@ Cuando el técnico atiende y resuelve el incidente, lo debe marcar como "resuelt
 
 ### Metodología
 
-Se propone una metodología de trabajo iterativa e incremental. Para esto, el TP se divide en tres entregas, las cuales se realizarán a través del envío del link al repositorio de trabajo por medio del Campus Virtual en la fecha estipulada por el Docente del curso.
+Se propone una metodología de trabajo **iterativa** e **incremental**. Para esto, el TP se divide en tres entregas, las cuales se realizarán a través del envío del link al repositorio de trabajo por medio del Campus Virtual en la fecha estipulada por el Docente del curso.
 En la última entrega (coincidente con la tercera) se deberá exponer el TP frente al curso, mostrando la solución generada y justificando las decisiones tomadas.
 
 # Entregas
@@ -53,7 +53,7 @@ En particular, en esta entrega se solicita:
 1. Modelo de datos (DER físico) que brinde solución al dominio.
 2. Código con modelado de clases. El código debe estar subido a un repositorio de GitHub.
 
-Es necesario que el proyecto Java sea creado como un proyecto "Maven" para poder añadir algunas dependencias. Se recomienda la utilización de la dependencia de Lombok (https://projectlombok.org/) para facilitar la tarea repetitiva de generación de Setters y Getters de las clases.
+Es necesario que el proyecto Java sea creado como un proyecto "Maven" para poder añadir algunas dependencias. Se recomienda la utilización de la dependencia de [Lombok](https://projectlombok.org/) para facilitar la tarea repetitiva de generación de Setters y Getters de las clases.
 
 ## Entrega 2
 
