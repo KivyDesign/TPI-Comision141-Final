@@ -79,7 +79,7 @@
 <p align="center">@https://github.com/germanesalvatierra</p>
 <p align="center">@https://github.com/KivyDesign</p>
 <p align="center">@https://github.com/gustavotorres37</p>
-<p align="center">@</p>
-<p align="center">@</p>
+<p align="center">@https://github.com/PaolaPonce</p>
+<p align="center">@https://github.com/ronamalaumi</p>
 <p align="center">@</p>
 
